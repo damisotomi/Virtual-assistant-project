@@ -12,8 +12,7 @@ import wx
 class VirtualAssistant(wx.Frame):  #the idea is that we are creating a frame and inheriting from wx inbuilt frame.
     '''
         A aplication that searches and returns search result from either wolframaplha or wikipedia
-        of any query you give to it. It could also speak the result and it also does text to speech.
-        So you can literally say your input and it converts it to text and searches for the result of the text 
+        of any query you give to it.
     '''
     def __init__(self, *args, **kw):
         super().__init__(*args, **kw,size=wx.Size(450,150),style=wx.MINIMIZE_BOX |wx.SYSTEM_MENU|wx.CAPTION|wx.CLOSE_BOX|wx.CLIP_CHILDREN) #inheriting the parameters from the parent class and edit some
