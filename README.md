@@ -3,4 +3,4 @@
  
  The GUI was developed using wxpython package
  
- Pypi packages like Wolframalpha and wikipedia were installed and used to work with data from these two sites
+ Pypi packages like Wolframalpha and wikipedia were installed and used to query and manipulate data from these two sites
