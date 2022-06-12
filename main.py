@@ -8,7 +8,6 @@ import wikipedia
 import wolframalpha
 import wx
 
-
 class VirtualAssistant(wx.Frame):  #the idea is that we are creating a frame and inheriting from wx inbuilt frame.
     '''
         A aplication that searches and returns search result from either wolframaplha or wikipedia
